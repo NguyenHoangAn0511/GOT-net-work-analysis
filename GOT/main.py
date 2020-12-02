@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import networkx as nx
 import community as community_louvain
+import community.community_louvain
 import matplotlib.cm as cm
 import matplotlib.pyplot as plt
 import numpy as np
@@ -132,7 +133,7 @@ def NB():
     st.write('- K-mean Clustering')
 
     st.markdown('> _**2.4.1 Modularity Clustering**_')
-    modulCluster = community_louvain.best_partition(Graph,weight='None')
+    modulCluster = community.community_louvain.best_partition(Graph,weight='None')
     dfModulCluster = pd.DataFrame(list(modulCluster.items()),columns = ['Character','Community'])
     dfModulCluster.sort_values("Character",  inplace = True)
     st.dataframe(dfModulCluster)
