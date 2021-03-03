@@ -33,11 +33,11 @@ Thanks [Andrew Beveridge](https://twitter.com/mathbeveridge) for his data. For d
 For this project, we used [first book](https://github.com/mathbeveridge/asoiaf/blob/master/data/asoiaf-all-nodes.csv) in total five books from his data.
 
 ## Source code
-To run the code, go to GOT folder and excecute the following line in cmd:
+To run the UI version, go to GOT folder and excecute the following line in cmd:
 ```shell
 streamlit main.py
 ```
-We implement out project in Python language with NetworkX package. More details [here](https://colab.research.google.com/drive/14UXxVCHdjEVObSZTEyTwRjdjsw1WgED0?usp=sharing).
+We also implement our project in Python language with NetworkX package. More details [here](https://colab.research.google.com/drive/14UXxVCHdjEVObSZTEyTwRjdjsw1WgED0?usp=sharing).
 
 ## Method
 * **Important characters based on different measures**
