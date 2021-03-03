@@ -72,4 +72,4 @@ For purpose of equity, we chose **NUMBER OF CLUSTERS** in K-means equal Modulari
 | 7 | 12 | 11 |
 
 ## Graph Visualization
-<img src = 'GOT.png'>
+<img src = 'https://github.com/NguyenHoangAn0511/GOT-net-work-analysis-IS353.L12.HTCL/blob/main/GOT/data/GOT.png'>
